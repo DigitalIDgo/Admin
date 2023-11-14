@@ -2,10 +2,10 @@
   padding: 0;
   margin: 0;
   background-color: black;
+  font-family: Sofia;
 }
 .img img{
   height: 250px;
-  width: 250px;
   border: 2px solid black;
   margin-left: 25px;
   margin-top: 25px;
@@ -18,23 +18,23 @@
   margin-right: 30px;
   border-radius: 20px;
   margin-top: 50px;
-  height: 570px;
+  height: 565px;
 }
 h1{
   color: forestgreen;
   font-size: 3rem;
-  margin-left: 300px;
+  margin-left: 200px;
   margin-top: 50px;
   font-weight: bolder;
   text-decoration-line: underline;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   background-color: whitesmoke;
 }
 .details p{
   margin-top: 10px;
   background-color: whitesmoke;
   font-size: 2rem;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 .details{
   background-color: whitesmoke;
@@ -66,23 +66,23 @@ i{
   color: orangered;
   font-size: 4rem;
   background-color: whitesmoke;
-  margin-top: 10px;
+  margin-top: 0px;
   font-weight: bolder;
 }
 .head{
   text-align: center;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  border-radius: 50%;
 }
 .head p{
   color: chocolate;
   font-size: 4rem;
-  padding: 10px;
+  padding: 0px;
+  border-radius: 20px;
 }
 .location{
   display: flex;
   background-color: whitesmoke;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .location p{
   background-color: whitesmoke;
@@ -96,7 +96,7 @@ i{
 .color{
   height: 20px;
   width: 600;
-  margin-top: 20px;
+  margin-top: 0px;
   border-radius: 20px;
   background-color: orange;
   margin-left: 10px;
@@ -113,6 +113,7 @@ i{
 }
 .flex img{
   height: 275px;
+  width: 275px;
   border: 2px solid black;
   margin-top: 25px;
   margin-left: 25px;
@@ -185,6 +186,8 @@ footer {
       text-align: center;
       padding: 10px;
   font-size: 2rem;
+  border-radius: 30px;
+  margin-bottom: 50px;
 }
 #badge{
   background-color: transparent;
